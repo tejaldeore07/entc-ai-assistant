@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>ENTC AI Assistant</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="leaf one"></div>
+<div class="leaf two"></div>
+
+<header>
+  <div class="logo">ENTC<span>AI</span></div>
+  <div>Smart • Clean • Intelligent</div>
+</header>
+
+<div class="container">
+  <h1>ENTC AI Assistant</h1>
+  <p class="subtitle">Ask questions. Learn better. Build smarter.</p>
+
+  <textarea id="questionInput" placeholder="Ask your ENTC-related question here..."></textarea>
+
+  <div class="actions">
+    <button onclick="askAI()">Ask ENTC AI</button>
+  </div>
+
+  <div class="loader" id="loader">Thinking...</div>
+
+  <div class="answer-box" id="answerBox">
+    <strong>ENTC AI Answer</strong>
+    <div id="answerText"></div>
+  </div>
+</div>
+
+<footer>© 2026 ENTC AI • Powered by n8n</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
